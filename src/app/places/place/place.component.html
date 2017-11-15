@@ -1,0 +1,13 @@
+<a [routerLink]="['/places', place.id]">
+  <div class="place-info-box">
+    <span class="place-info-box-icon"><img [src]="place.imagePath"/></span>
+
+    <div class="place-info-box-content">
+      <span class="place-info-box-text">{{place.name}} </span>
+      <span class="place-info-box-star"><i class="fa fa-star"></i>{{place.rating}}</span>
+      <span class="place-info-box-detail">{{place.category}}</span>
+      <span class="place-info-box-detail">{{place.deliveryEstimate}}</span> 
+    </div>
+    <!-- /.info-box-content -->
+  </div>
+</a>

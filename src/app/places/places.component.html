@@ -1,0 +1,24 @@
+      <!-- INíCIO do CONTEÚDO -->
+      <section class="content-header">
+        <h1>
+          Corretores
+        </h1>
+      </section>
+
+
+      <section class="content">
+
+        <div class="row">
+             
+                <div *ngFor="let place of places"  class="col-sm-6 col-xs-12">
+                  <mt-place [place]="place"></mt-place>
+                </div>
+                <!-- /.col -->
+
+              </div>
+
+      </section>
+
+      <!-- FIM  do CONTEÚDO -->
+
+

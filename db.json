@@ -1,0 +1,128 @@
+{
+  "places": [
+    {
+      "id": "bread-bakery",
+      "name": "Ricardo dos Santos - CRECI 938405",
+      "category": "Itaim Bibi",
+      "deliveryEstimate": "Lançamentos",
+      "rating": 4.9,
+      "imagePath": "assets/img/restaurants/breadbakery.png",
+      "about": "Especialista em apartamentos alto padrao , Itaim, Moema e Vila Nova Conceicao.",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "burger-house",
+      "name": "Solange Bittencourt",
+      "category": "Moema/Brooklyn",
+      "deliveryEstimate": "Venda e Locação - Imóveis Usados",
+      "rating": 3.5,
+      "imagePath": "assets/img/restaurants/burgerhouse.png",
+      "about": "Proativo, solicito, objetivo, sempre traz informacoes com muito valor.",
+      "hours": "Funciona todos os dias, de 10h às 22h"
+    },
+    {
+      "id": "coffee-corner",
+      "name": "Marcia Magalhaes Silva",
+      "category": "Vila Mariana",
+      "deliveryEstimate": "Venda e Locação - Imóvel Novos",
+      "rating": 4.8,
+      "imagePath": "assets/img/restaurants/coffeecorner.png",
+      "about": "Atencioso, me trouxe solucoes praticas e objetivas.",
+      "hours": "Funciona de segunda à sábado, de 6h às 22h"
+    },
+    {
+      "id": "green-food",
+      "name": "Lucas Fachini",
+      "category": "Lançamentos",
+      "deliveryEstimate": "1 e 2 Dormitórios",
+      "rating": 4.1,
+      "imagePath": "assets/img/restaurants/greenfood.png",
+      "about": "Carteira otima de produtos, apresentou exatamente o que eu queria)",
+      "hours": "Somente em horário de almoço, das 11h às 15h"
+    }
+  ],
+  "menu": [
+    {
+      "id": "cup-cake",
+      "imagePath": "assets/img/restaurants/ap1.jpg",
+      "name": "Paulo Abreu - Tel. *****-9935",
+      "description": "Apartamento Vila Conceição 4 suites",
+      "price": 4080700.00,
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "id": "donut",
+      "imagePath": "assets/img/restaurants/ap2.jpg",
+      "name": "Ana Cristina Vieira - WhatsUp (11) 94140-*****",
+      "description": "Cobertura Vila Mariana",
+      "price": 21111805.00,
+      "restaurantId": "bread-bakery"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Tudo muito bom, entrega no tempo certo",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Aline",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3,
+      "comments": "Atencioso, proativo, focado e objetivo.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "Atendeu todas minhas necessidades em tempo record.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Nunca deixou na mão.",
+      "restaurantId": "bread-bakery"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente ! Recomendo!",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Demora muito",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Carla",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.8,
+      "comments": "Tudo perfeito. Entrega, embalagem, comida. Resultado? Melhor custo beneficio",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Muito rápida a entrega, mas é caro.",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "André",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente como sempre!",
+      "restaurantId": "coffee-corner"
+    }
+  ],
+  "orders": []
+}
